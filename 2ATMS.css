@@ -26,10 +26,12 @@
 
 /* nav ops2 */
 .nav_ops2{
+    /* background-color: green; */
     display: flex;
     align-items: center;
 }
 .button1{
+    /* display: inline-block; */
     width: 130px;
     height: 33px;
     font-size: 0.85rem;
@@ -43,4 +45,10 @@
     border: 2px solid #ef7b00;
     color: black;
     background-color: #ef7b00;
+}
+.nav_ops2 a{
+    text-decoration: none;
+    color: #C1C1C1;
+    margin: 0px 0px 0px 10px;
+    
 }
